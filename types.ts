@@ -6,8 +6,10 @@ export interface Product {
   price: number; // in KZ
   category: Category;
   image: string;
+  video?: string; // URL do vídeo (opcional)
   description: string;
   isSoldOut: boolean;
+  stock: number; // Quantidade em estoque
 }
 
 export interface User {

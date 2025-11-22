@@ -9,6 +9,7 @@ export const initialProducts: Product[] = [
     image: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&q=80&w=600",
     description: "Camiseta 100% algodão com corte moderno.",
     isSoldOut: false,
+    stock: 10,
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const initialProducts: Product[] = [
     image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=600",
     description: "Conforto e estilo para o seu dia a dia.",
     isSoldOut: false,
+    stock: 5,
   },
   {
     id: 3,
@@ -27,6 +29,7 @@ export const initialProducts: Product[] = [
     image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=600",
     description: "Espaçosa e elegante, ideal para trabalho.",
     isSoldOut: false,
+    stock: 8,
   },
   {
     id: 4,
@@ -36,6 +39,7 @@ export const initialProducts: Product[] = [
     image: "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&q=80&w=600",
     description: "Design clássico com pulseira ajustável.",
     isSoldOut: false,
+    stock: 12,
   },
   {
     id: 5,
@@ -45,6 +49,7 @@ export const initialProducts: Product[] = [
     image: "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&q=80&w=600",
     description: "Tecido premium, perfeito para ocasiões especiais.",
     isSoldOut: false,
+    stock: 3,
   },
   {
     id: 6,
@@ -54,6 +59,7 @@ export const initialProducts: Product[] = [
     image: "https://images.unsplash.com/photo-1544642899-f0d6e5f6ed6f?auto=format&fit=crop&q=80&w=600",
     description: "Estilo atemporal que combina com tudo.",
     isSoldOut: true,
+    stock: 0,
   },
   {
     id: 7,
@@ -63,6 +69,7 @@ export const initialProducts: Product[] = [
     image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&q=80&w=600",
     description: "Proteção UV400 com armação leve.",
     isSoldOut: false,
+    stock: 20,
   },
   {
     id: 8,
@@ -72,5 +79,6 @@ export const initialProducts: Product[] = [
     image: "https://images.unsplash.com/photo-1599643478518-17488fbbcd75?auto=format&fit=crop&q=80&w=600",
     description: "Aço inoxidável com banho de ouro.",
     isSoldOut: false,
+    stock: 15,
   }
 ];
